@@ -46,7 +46,8 @@ const loginUser = (data) => {
     });
   };
 
-export {
+// eslint-disable-next-line import/no-anonymous-default-export
+export default {
   createUser,
   fetchUser,
   loginUser,
