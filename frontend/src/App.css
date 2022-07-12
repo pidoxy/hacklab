@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+input{
+  background-color: #E4ECFD;
+}
+
+@media only screen and (max-width: 757px) {
+  .App-logo {
+    height: 4vh;
+  }
+
+  .App-background{
+    background-size: cover !important;
+    /* max-height:70vh !important; */
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-background{
+  background-image: url("./images/bg.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
