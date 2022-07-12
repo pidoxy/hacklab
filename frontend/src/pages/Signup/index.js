@@ -3,11 +3,11 @@ import { Button, message, Upload } from "antd";
 import { InboxOutlined } from "@ant-design/icons";
 import "antd/dist/antd.css";
 
-import addOthers from "../images/add.svg";
+import addOthers from "../../images/add.svg";
 import Webcam from "react-webcam";
-import openNotificationWithIcon from "./notification";
+import openNotificationWithIcon from "../../components/notification";
 import { useEffect } from "react";
-import apiServices from "../services/apiServices";
+import apiServices from "../../services/apiServices";
 
 export default function SignUp() {
   const [data, setData] = useState({

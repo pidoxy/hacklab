@@ -1,10 +1,10 @@
 import "./App.css";
 import Header from "./components/Header";
-import Home from "./components/Home";
+import Home from "./pages/Home/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./components/Login";
-import SignUp from "./components/Signup";
-import AboutUs from "./components/AboutUs";
+import SignUp from "./pages/Signup";
+import AboutUs from "./pages/Aboutus";
 import Footer from "./components/Footer";
 
 function App() {
