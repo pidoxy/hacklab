@@ -1,4 +1,4 @@
-import amico from '../images/amico.svg';
+import amico from '../../images/amico.svg';
 
 export default function Home() {
   const cards = [

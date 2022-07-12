@@ -1,6 +1,6 @@
 import { useState } from "react";
-import apiServices from "../services/apiServices";
-import openNotificationWithIcon from "./notification";
+import apiServices from "../../services/apiServices";
+import openNotificationWithIcon from "../../components/notification";
 
 export default function Login() {
   const [loginData, setLoginData] = useState({ email: "", password: "" });

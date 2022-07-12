@@ -2,7 +2,7 @@ import axios from "axios";
 
 const baseUrl_ = "https://morning-headland-58484.herokuapp.com";
 
-let token = localStorage.getItem("token");
+// let token = localStorage.getItem("token");
 
 const createUser = (data) => {
   return axios({
@@ -46,6 +46,7 @@ const loginUser = (data) => {
     });
   };
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   createUser,
   fetchUser,
