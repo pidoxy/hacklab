@@ -69,7 +69,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="text-lihb text-center px-5 pt-2 pb-5 ">
+      <div className="text-lihb text-center px-5 py-5 ">
         <h1 className="md:text-3xl text-xl font-bold text-lihb">
           Introducing Our security AI that can
         </h1>

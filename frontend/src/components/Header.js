@@ -8,15 +8,15 @@ export default function Header() {
   return (
     <Popover className="relative bg-lay border border-darb">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
+        <div className="flex justify-between items-center py-3 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a className="flex space-x-5" href="/">
+            <a className="flex self-center space-x-5" href="/">
               <img
                 className="h-2 w-10 sm:h-10 App-logo"
                 src={logo}
                 alt="pheraCAM logo"
               />
-              <p className="font-bold text-2xl text-darb grid place-items-center">
+              <p className="font-bold text-2xl text-darb my-0 grid place-items-center">
                 PheraCAM
               </p>
             </a>
@@ -27,7 +27,7 @@ export default function Header() {
               <MenuIcon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
           </div>
-          {/* <div className="hidden md:flex items-center justify-end md:flex-1 space-x-3 lg:w-0">
+          <div className="hidden md:flex items-center justify-end md:flex-1 space-x-3 lg:w-0">
             <a
               href="/about"
               className=" font-bold text-lg text-lihb hover:text-gray-900"
@@ -46,7 +46,7 @@ export default function Header() {
             >
               Sign up
             </a>
-          </div> */}
+          </div>
         </div>
       </div>
       {/* small screens */}
@@ -85,7 +85,7 @@ export default function Header() {
               </div>
             </div>
             {/* comment out */}
-            {/* <div className="py-6 px-5">
+            <div className="py-6 px-5">
               <div className="flex flex-col justify-center">
                 <a
                   href="/about"
@@ -100,7 +100,7 @@ export default function Header() {
                   Contact Us
                 </a>
               </div>
-            </div> */}
+            </div>
           </div>
         </Popover.Panel>
       </Transition>
