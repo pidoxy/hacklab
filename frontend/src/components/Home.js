@@ -101,15 +101,22 @@ export default function Home() {
         </div>
         <div className="md:text-left flex flex-col md:w-1/2">
           <p className="text-lg my-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim
-            aliquam, facilisis lobortis sed quisque mauris. Natoque pellentesque
-            malesuada et magna. Massa malesuada lobortis ipsum etiam turpis
-            commodo. Vitae mauris ipsum hendrerit bibendum. Aliquam bibendum
-            turpis id vitae euismod vivamus lectus curabitur sem. At magna amet
-            orci adipiscing netus hendrerit eleifend tristique. Volutpat
-            hendrerit arcu sed nullam. Aliquet turpis sit purus mi risus
-            adipiscing amet. Quisque magna euismod massa molestie integer ligula
-            risus tempus.
+            
+            It is an AI-Based Security and protection System that uses
+facial recognition and edge computing to alert you when
+an unregistered face is detected (maybe in your home or vehicle), causing you to make 
+necessary actions when your property is posed to a threat.
+Everyone wants to be secured or let’s say have some sort
+of security including our users.
+We understand that our users want to enjoy what they’ve have worked for and we are using this product to improve the security and privacy of our users by effectively using of the IOT devices Powered by AI, to protect their property against theft and crime.
+Hence, we can make our users sleep better at night.
+            
+            
+            
+            
+            
+            
+            
           </p>
           <a
             href="/learn-more"
