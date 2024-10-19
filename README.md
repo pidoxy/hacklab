@@ -1,5 +1,7 @@
 # PheraCam
 
+[live demo](https://www.youtube.com/watch?v=bUmzASxRi6E)
+
 ## Problem Statement
     The insecurity in Nigeria is increasing exponentially with each passing day.
     Insecurity and terrorism have been a major challenge for the Nigerians and 
